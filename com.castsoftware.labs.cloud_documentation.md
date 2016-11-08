@@ -5,9 +5,13 @@ This extension provides computation of the following new assessment indicator(s)
 
 ##  Problem Statement
 With Cloud deployment adoption, Cloud deployment failure story also abounds.
+
 The reason it becomes harder to ensure software quality is that the cloud creates an opportunity to deploy applications in a much simpler way. And although it’s not difficult to put an application in the cloud to try it out, it's difficult to put an application that is able to withstand the test of real production in the cloud. End-users don't understand the difference between a try-out application and a resilient application.
+
 The difference lies inside the application architecture and is independent from the size of the deployment environment. So while IT departments would have asked for requirements in terms of capacity planning (for example: how many end-users? How many transactions per hour?), no such planning occurred with try-out applications that were deployed in the cloud by the marketing departments themselves.
+
 They understand from the marketing buzz that it’s simple, fast, has capacity on-demand, etc. But they won’t understand the caution IT departments take before deploying an application, and they won’t understand why they ask for some time to make the application scalable. They think, “With the cloud, you can simply activate more horse power with a click of a button and some credit card info!”
+
 They don’t realize that an application not designed to be scalable will not become scalable simply because it runs on ten more servers. With this in mind, you can understand that having the right architecture blueprint and -- more importantly -- sticking to it from the start, is a key factor of success.
 
 ## Research Labs proposal
@@ -23,6 +27,7 @@ The CloudReady Index is based on the following Technical Criteria
 * CloudReady - focus on inter-component airtightness
 * CloudReady - focus on inter-component and inter-service communication efficiency
 * CloudReady - focus on security
+
 The Technical Criteria have been populated with Quality Rules with aggregate weight greater or equal to 5 of the following existing Technical Criteria:
 * Architecture - OS and Platform Independence
 * Efficiency - Expensive Calls in Loops
@@ -85,8 +90,10 @@ The installation steps are the following:
 
 # Packaging, delivering and analyzing your source code
 Packaging, delivering and analyzing your source code is performed the same way as usual.
+
 To get results:
 * run a new snapshot (if not possible, contact the Research Labs for alternative procedure)
+
 To avoid computing the CloudReady index for applications that are not candidate to moving to the cloud:
 * open CAST Management Studio
 * edit the Dashboard Service(s) you are publishing the Snapshots of the N/A application(s)
