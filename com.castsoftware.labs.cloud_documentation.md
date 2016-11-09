@@ -95,7 +95,7 @@ Please see:  [Extension Link Installation](http://doc.castsoftware.com/display/D
 
 The installation steps are the following:
 
-* download the extension through the CAST Extension Downloader
+* download the extension through the CAST Extension Downloader using the https://extend.castsoftware.com:443/labs download server
 * open Server Manager 8.1+
 * select the existing set of databases to update \/ install a new set of databases
 * manage extensions of the existing set of database \/ follow the installation wizard up to the manage extension pane
