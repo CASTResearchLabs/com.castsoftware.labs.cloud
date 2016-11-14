@@ -60,7 +60,10 @@ Release 1.1.0 changes the composition of the index to integrating feedback from 
 
 Release 2.0.0 changes the organization and composition of the index, via dedicated Technical Criteria, to better map the type of issues at hand, and refine selection.
 
-# _com.castsoftware.labs.cloud_ technology support
+## 2.0.1
+Release 2.0.1 removes the delivery of a 8.1 war file that can now be delivered upon request so as to be leaner, especially as the dedicated is not mandatory any more with AIP 8.2.0.
+
+# Technology support
 
 All technologies supported out-of-the-box by CAST AIP are supported.
 In case of technologies supported by some AIP extensions, contact the Research Labs to build a compatible CloudReady index.
