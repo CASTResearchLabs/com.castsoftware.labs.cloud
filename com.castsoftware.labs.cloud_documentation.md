@@ -77,7 +77,7 @@ This extension is designed to bring new quality indicator aside existing ones.
 This extension is compatible with:
 
 * 8.1.x out-of-the-box \(AIP release used for the tests\)
-* 8.0.x after changing the nuspec file \(there is no reason the extension would not work but it was not tested\)
+* 8.0.x out-of-the-box \(there is no reason the extension would not work but it was not tested\)
 * 7.x.x after changing the nuspec file \(there is no reason the extension would not work but it was not tested\)
 
 # Supported DBMS servers
@@ -99,15 +99,13 @@ Please see:  [Extension Link Installation](http://doc.castsoftware.com/display/D
 The installation steps are the following:
 
 * download the extension through the CAST Extension Downloader using the https://extend.castsoftware.com:443/labs download server
-* open Server Manager 8.1+
+* open Server Manager 8.x
 * select the existing set of databases to update \/ install a new set of databases
 * manage extensions of the existing set of database \/ follow the installation wizard up to the manage extension pane
-* select _com.castsoftware.labs.cloud.2.0.0_
+* select _com.castsoftware.labs.cloud.2.0.1_
 * run the update \/ the installation  
 * open CAST Management Studio
 * import the Assessment Model from the Dashboard Service processed in steps \#3 to \#6 above; this is a _Mandatory_ step to start computing the new indicator, one MUST import and use the Assessment Model from the Dashboard that was updated with the extension
-* deploy the WAR file from the WAR subdirectory
-* configure the context.xml to target the Measurement Base you will use as well as the Dashboard Service processed in steps \#3 to \#6 above \(to configure your own deployed WAR, contact the Labs for detailed procedure\)
 
 # Packaging, delivering and analyzing your source code
 
