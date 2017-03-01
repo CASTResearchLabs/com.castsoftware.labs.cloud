@@ -49,6 +49,9 @@ The Technical Criteria have been populated with Quality Rules with aggregate wei
 # In what situation should you install this extension?
 
 If you are interested in getting a preview of what the CloudReady index would be and are willing to share the results to help the CAST Research Labs validate them.
+--------------
+*As of this release, the CloudReady Index aims at measuring IaaS fit, following a lift-and-shift approach. It does not measure PaaS fit so far.*
+--------------
 
 # Release notes
 
